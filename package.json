@@ -2,9 +2,13 @@
   "name": "@beevk/express-common",
   "version": "0.0.0",
   "description": "Library that contains common functionalities for my node projects",
-  "main": "index.js",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": ["build/**/*"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "del ./build/*",
+    "build": "npm run clean && tsc",
+    "pub:patch": "npm version patch && npm run build && npm publish"
   },
   "repository": {
     "type": "git",
@@ -16,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/NodeMicroServices/common/issues"
   },
-  "homepage": "https://github.com/NodeMicroServices/common#readme"
+  "homepage": "https://github.com/NodeMicroServices/common#readme",
+  "devDependencies": {
+    "del-cli": "^4.0.1",
+    "typescript": "^4.4.2"
+  }
 }
