@@ -1,6 +1,6 @@
 {
   "name": "@beevk/express-common",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Library that contains common functionalities for my node projects",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -16,7 +16,13 @@
     "type": "git",
     "url": "git+https://github.com/NodeMicroServices/common.git"
   },
-  "keywords": ["Express", "NodeJS", "Middleware", "CustomErrors", "ErrorHandler"],
+  "keywords": [
+    "Express",
+    "NodeJS",
+    "Middleware",
+    "CustomErrors",
+    "ErrorHandler"
+  ],
   "author": "Bivek Singh",
   "license": "MIT",
   "bugs": {
