@@ -1,7 +1,7 @@
 import { RequestHandler } from "express";
 import jwt from 'jsonwebtoken';
 
-import { AuthorizationError } from '../errors';
+// import { AuthorizationError } from '../errors';
 
 interface IUserPayload {
     id: string;

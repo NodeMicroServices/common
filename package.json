@@ -16,15 +16,23 @@
     "type": "git",
     "url": "git+https://github.com/NodeMicroServices/common.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["Express", "NodeJS", "Middleware", "CustomErrors", "ErrorHandler"],
+  "author": "Bivek Singh",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/NodeMicroServices/common/issues"
   },
   "homepage": "https://github.com/NodeMicroServices/common#readme",
   "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/express-validator": "^3.0.0",
+    "@types/jsonwebtoken": "^8.5.5",
     "del-cli": "^4.0.1",
     "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "jsonwebtoken": "^8.5.1"
   }
 }
