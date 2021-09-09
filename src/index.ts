@@ -1,7 +1,2 @@
-const greet = (): string => {
-    const message = 'Hello World';
-    console.log(`${message}!`);
-    return message;
-}
-
-export default greet;
+export * from "./errors";
+export * from "./middlewares";
