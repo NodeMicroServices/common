@@ -1,0 +1,20 @@
+{
+  "name": "@beevk/express-common",
+  "version": "0.0.0",
+  "description": "Library that contains common functionalities for my node projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NodeMicroServices/common.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NodeMicroServices/common/issues"
+  },
+  "homepage": "https://github.com/NodeMicroServices/common#readme"
+}
